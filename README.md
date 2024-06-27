@@ -1,1 +1,1 @@
-
+[Ссылка на мое CV](https://fr0mdanone.github.io/rsschool-cv/cv)
