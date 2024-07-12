@@ -7,6 +7,158 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="header-1">Здесь будет резюме, чесслово</h1>
+    <header>
+        <div class="nav container">
+            <nav class="navigation">
+                <ul class="list nav">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#code-example">Code Example</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1 >Sasha Kazakhstan - Senior Frontend Developer</h1>   
+        </div>
+    </header>
+
+    <main>
+        <div class="photo about contacts">
+            <div class="image-wrapper">
+                <img src="/avatar.jpg" alt="Photo" class="photo" id="avatar">
+            </div>
+            <div class="about container">
+                <div class="about text" id="about">
+                    <h2>About Me</h2>
+                    With over five years of experience as a frontend developer, I specialize in React and have extensive experience with TypeScript. I've contributed to internal product development for various companies and have a bit of experience working on open source projects. I have a keen interest in how information technology impacts business and am ready to communicate in English.
+
+                    <div id="contacts">
+                        <h2 id="h2-contacts">Contacts</h2>
+                        <ul class="list contacts text">
+                            <li><a href="mailto:peachtreespw@gmail.com" target="_blank">E-mail</a></li>
+                            <li><a href="https://t.me/MochaDev" target="_blank">Telegram</a></li>
+                            <li><a href="https://github.com/fr0mdanone" target="_blank">Github</a></li>
+                            <li>Living in Almaty</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="skills container">
+            <div class="skills text" id="skills">
+                <h2>Skills</h2>
+                <ul class="list skills">
+                    <li>Java Script</li>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Jest (with RTL or Enzyme)</li>
+                    <li>React Query</li>
+                    <li>SCRUM</li>
+                    <li>English - C1</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+
+        <div id="experience">
+            <h2 class="experience text">Experience</h2>
+            <div class="exp-1 container">
+                <div class="exp-1 text">
+                    <span class="experience-name">React Developer at Open AI</span>
+                    <br>
+                    April 2023 - Present
+                    <br>
+                    Currently, I serve as a Team Lead for a team developing a product for an external client. My responsibilities include team management, architecture discussions, and facilitating communication between the development team and the business. My team has developed a component library for use in the project. Within the company, I have participated in various conferences as a speaker and conducted interviews.
+                </div>
+            </div>
+            <div class="exp-2 container">
+                <div class="exp-2 text">
+                    <span class="experience-name">React Developer at SpaceX</span>
+                    <br>
+                    June 2020 - April 2023
+                    <br>
+                    Initially, I joined the project as a key developer, where my primary tasks included developing new features, maintaining existing modules, code reviews, participating in grooming sessions, and discussing requirements with management. The project is aimed at managing processes across all Musk companies' libraries. After a few months, I transitioned into a lead role, where my duties expanded to include feature discussions for upcoming releases and technical solution deliberations with architects. I also participated in a series of interviews, interviewing senior-level candidates.
+                    Stack: React, Redux, Jest + RTL, TypeScript
+                </div>
+            </div>
+
+            <div class="exp-3 container">
+                <div class="exp-3 text">
+                    <span class="experience-name">Developer at Amazon</span>
+                    <br>
+                    July 2018 - June 2020
+                    <br>
+                    I started as a middle frontend developer, responsible for developing new features and maintaining legacy code. Within the company, I grew into a key developer role in a team developing an internal product for company recruitment. My tasks included frontend development using React and occasionally fixing backend issues written in Node.js, although I always preferred frontend, so my backend experience remained limited.
+                    Stack: React, Redux, Jest + Enzyme
+                </div>
+            </div>
+        </div>
+
+        <div class="code container">
+            <div class="code text" id="code-example">
+                <h2>Code Example</h2>
+                <code>
+                    <pre>
+                        .footer-container {
+                            width: 100%;
+                            background-color: #b31616;
+                            padding: 10px;
+                            box-sizing: border-box;
+                        }
+                        
+                        .footer-links {
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            gap: 20px;
+                            position: relative;
+                            height: 100px;
+                        }
+                        
+                        .footer-links a {
+                            flex: 1;
+                            max-width: 100px;
+                            height: 100px;
+                        }
+                        
+                        #rsschool, #github {
+                            width: 100px;
+                            height: auto;
+                        }
+                        
+                        .list {
+                            padding: 0px;
+                        }
+                        
+                        .list.skills {
+                            list-style-position: inside;
+                            list-style-type: disc;
+                        }
+                        
+                        .experience-name {
+                            font-weight: bold;
+                        }    
+                    </pre>
+                </code>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="https://github.com/fr0mdanone" target="_blank"><img src="/githublogo.png" alt="GitHub" class="photo" id="github"></a>
+                <a href="https://rs.school/courses/javascript-ru" target="_blank"><img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/25280abf1815aaf58ff04a69c0f82393d5f54ef0/tasks/cv/rs-school-logo.svg" alt="RSSchool" class="photo" id="rsschool"></a>
+            </div>
+        </div>
+    </footer>
+    
+
 </body>
 </html>

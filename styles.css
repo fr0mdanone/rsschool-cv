@@ -1,3 +1,102 @@
-.header-1 {
-    font-size: 10px;
+body {
+    background-color: rgb(255, 238, 0);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h1 {
+    color: #000;
+}
+
+.list.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.photo.about.contacts {
+    display: flex;
+    align-items: stretch;
+}
+
+.image-wrapper {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#avatar {
+    height: 100%;
+    width: auto;
+}
+
+.text {
+    padding: 20px;
+    justify-content: center
+}
+
+.experience.text {
+    margin-bottom: 10px;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.about.container, .skills.container, .exp-1.container, .exp-2.container, .exp-3.container, .experience.text, .code.container {
+    background-color: #000000;
+}
+
+
+.footer-container {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    height: 100px;
+}
+
+.footer-links a {
+    flex: 1;
+    max-width: 100px;
+    height: 100px;
+}
+
+#rsschool, #github {
+    width: 100px;
+    height: auto;
+}
+
+#h2-contacts {
+    margin-bottom: 0px;
+}
+
+.list {
+    padding: 0px;
+}
+
+.list.skills, .list.contacts {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.list.contacts {
+    list-style-type: none;
+}
+
+.experience-name {
+    font-weight: bold; /* Используйте font-weight для задания жирного шрифта */
 }
