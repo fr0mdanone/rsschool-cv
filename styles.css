@@ -38,6 +38,7 @@ h1 {
 
 .text {
     padding: 20px;
+    justify-content: center
 }
 
 .experience.text {
